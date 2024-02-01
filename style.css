@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  /* border: 0 none rgb(0, 0, 0); */
+  width: 460px;
+  padding: 20px 20px 20px 20px;
+  height: 250px;
+  background-color: inherit;
+  border-radius: 30px;
+  /* padding: 10px 0 0 0; */
+  min-height: auto;
+  min-width: auto;
+}
+
+.container {
+  /* border: 2px none black; */
+  width: 500px;
+  display: flex;
+  background-color: black;
+  border-radius: 20px;
+  height: 900px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  min-height: auto;
+  min-width: auto;
+}
+.calc {
+  display: grid;
+  width: 540px;
+  height: 400px;
+  min-height: auto;
+  min-width: auto;
+  margin-bottom: 180px;
+}
+
+.satir1 .black{
+    color: black;
+    background-color: #a5a5a5;
+}
+
+.satir2 .gray{
+    background-color: #333333;
+    color: aliceblue;
+
+}
+.satir3 .gray{
+    background-color: #333333;
+    color: aliceblue;
+
+}
+.satir4 .gray{
+    background-color: #333333;
+    color: aliceblue;
+
+}
+.satir5 .gray{
+    background-color: #333333;
+    color: aliceblue;
+
+}
+
+
+
+.satir1,
+.satir2,
+.satir3,
+.satir4,
+.satir5 {
+  
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  padding: 15px 15px 5px 15px;
+  /* border: 1px none black; */
+}
+
+.container button {
+    cursor: pointer;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  
+  min-height: auto;
+  min-width: auto;
+  font-size: 45px;
+  transition: background-color 0.3s ease;
+  border: none;
+  
+}
+
+.container .oranje {
+  background-color: #f1a33c;
+  color: aliceblue;
+}
+
+.satir5 .width {
+  width: 200px;
+  background-color: #333333;
+  text-align: left;
+  padding: 30px;
+  color: aliceblue;
+}
+
+
+.calc button:hover{
+    background-color: #1A1A1A;
+
+
+
+}
